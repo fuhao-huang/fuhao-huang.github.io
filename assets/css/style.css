@@ -822,7 +822,9 @@ body.nav-active { overflow: hidden; }
   .hero-subtitle { text-shadow: 2px 2px 0 var(--eerie-black); }
 
 
-
+  ion-icon {
+    font-size: 48px;
+  }
   /**
    * SKILL
    */
@@ -985,6 +987,6 @@ body.nav-active { overflow: hidden; }
 
   .hero-title { word-break: normal; }
 
-  .hero .section-text { margin-block-end: 52px; }
+  /* .hero .section-text { margin-block-end: 0px; } */
 
 }
