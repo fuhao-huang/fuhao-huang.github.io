@@ -150,7 +150,7 @@ body.nav-active { overflow: hidden; }
 \*-----------------------------------*/
 
 .container { padding-inline: 12px; }
-
+.logo-img { margin-left: 150px; }
 .section { padding-block: var(--section-padding); }
 
 .h1 {
@@ -484,7 +484,7 @@ body.nav-active { overflow: hidden; }
 .hero-banner {
   border-radius: var(--blob-radius);
   overflow: hidden;
-  animation: blobAnim 30s linear infinite;
+  animation: blobAnim 15s linear infinite;
 }
 
 @keyframes blobAnim {
@@ -808,7 +808,7 @@ body.nav-active { overflow: hidden; }
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    width: 55%;
+    width: 45%;
     z-index: -1;
   }
 
